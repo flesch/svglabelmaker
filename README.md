@@ -5,5 +5,5 @@
 ```
 
 ```markdown
-![simple label](http://localhost:9021/160/50/DD0000/FFFFFF/simple+label)
+![simple label](https://svglabelmaker.herokuapp.com/160/50/DD0000/FFFFFF/simple+label)
 ```
