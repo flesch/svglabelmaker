@@ -1,0 +1,30 @@
+{
+  "name": "svglabelmaker",
+  "description": "svglabelmaker.herokuapp.com",
+  "version": "1.0.0",
+  "author": "John Flesch <john@fles.ch>",
+  "bugs": "https://github.com/flesch/svglabelmaker/issues",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "iojs": "1.0.x"
+  },
+  "homepage": "https://github.com/flesch/svglabelmaker.git",
+  "keywords": [
+    "label",
+    "svg"
+  ],
+  "license": "MIT",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flesch/svglabelmaker.git"
+  },
+  "scripts": {
+    "develop": "eval $([ -f .env ] && cat .env) ./node_modules/.bin/nodemon server.js",
+    "start": "eval $([ -f .env ] && cat .env) node server.js",
+    "test": "eval $([ -f .env ] && cat .env) echo \"Error: no test specified\" && exit 1"
+  }
+}
